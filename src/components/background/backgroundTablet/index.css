@@ -1,0 +1,153 @@
+.wave_768_png_1 {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 768px;
+  height: 1022px;
+  z-index: 10;
+  transition: all 1s ease;
+}
+
+.wave_768_png_1--active {
+  height: 950px;
+}
+
+.wave_768_png_2 {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 768px;
+  height: 900px;
+  z-index: 20;
+  transition: all 1s ease;
+}
+
+.wave_768_png_3 {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 768px;
+  height: 709px;
+  z-index: 30;
+  transition: all 1.5s ease;
+}
+
+.wave_768_png_3--active {
+  right: -260px;
+  transition: all 2s ease;
+}
+
+.wave_768_png_4 {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 700px;
+  height: 400px;
+  z-index: 100;
+  transition: all .5s ease;
+}
+
+.wave_768_png_5 {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 515px;
+  z-index: 90;
+  transition: all .3s ease;
+}
+
+.wave_768_png_6 {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 768px;
+  height: 1024px;
+  z-index: 80;
+  transition: all .7s ease;
+}
+
+.wave_768_png_7 {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 291px;
+  height: 260px;
+  z-index: 100;
+  transition: all .8s ease;
+}
+
+.stripes_768_png {
+  display: block;
+  position: absolute;
+  right: 246px;
+  top: -20px;
+  width: 387px;
+  height: 215px;
+  z-index: 40;
+  transition: all 1s ease;
+}
+
+.moon_768_png {
+  display: block;
+  position: absolute;
+  right: 5px;
+  top: 85px;
+  width: 63px;
+  height: 63px;
+  z-index: 50;
+  transition: all 2s ease;
+}
+
+.people_768_png {
+  display: block;
+  position: absolute;
+  right: 64px;
+  top: 34px;
+  width: 459px;
+  height: 471px;
+  z-index: 60;
+  transition: all 1s ease;
+}
+
+.people_768_png--active {
+  right: 48px;
+}
+
+.leaf1_768_png {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 251px;
+  width: 140px;
+  height: 272px;
+  z-index: 80;
+  transition: all 2s ease;
+}
+
+.leaf2_768_png {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 180px;
+  width: 106px;
+  height: 307px;
+  z-index: 70;
+  transition: all 2s ease;
+}
+
+.chat_768_png {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+}

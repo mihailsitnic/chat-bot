@@ -1,0 +1,34 @@
+/* Patient Info
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+
+.chatPage-patientInfo {
+    text-align: center;
+    max-width: 300px;
+    display: block;
+    margin: 50px auto 40px;
+}
+
+.patient__img {
+    margin: 0 auto;
+    display: block;
+    width: 210px;
+}
+
+.patient__description {
+    padding-top: 28px;
+}
+
+.patient__title {
+    font-size: 18px;
+    line-height: 25px;
+    color: #05336B;
+    padding-top: 15px;
+}
+
+.patient__txt {
+    font-size: 12px;
+    line-height: 17px;
+    font-family: "Proxima Nova Regular", "Open Sans", sans-serif;
+    color: #05336B;
+    opacity: .5;
+}

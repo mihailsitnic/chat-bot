@@ -1,0 +1,75 @@
+.header {
+  z-index: 999;
+  position: relative;
+}
+
+.header--active {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.header-logo--active {
+  width: 73px;
+}
+
+.header-wrap {
+  width: 95%;
+  margin: 0 auto;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-wrap--active {
+  width: 97%;
+  height: 64px;
+}
+
+.header__back-bt {
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  color: #05336B;
+  font-size: 14px;
+  line-height: 20px;
+  transition: all .3s ease;
+  font-family: "Proxima Nova Regular", "Open Sans", sans-serif;
+}
+
+.header__back-bt:hover {
+  transition: all .3s ease;
+}
+
+.header__back-bt:before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -30px;
+  width: 19px;
+  height: 16px;
+  background: url("../../img/icons/arrow-back.svg");
+}
+
+
+/* Responsive media queries
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) {}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {}
+
+/* Small devices (tablets, 320px and up) */
+@media (max-width: 320px) {
+  .header-wrap {
+    height: 72px;
+  }
+  .header-logo {
+    width: 64px;
+  }
+}

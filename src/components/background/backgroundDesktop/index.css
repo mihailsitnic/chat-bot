@@ -1,0 +1,194 @@
+.wave-1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 210px;
+  height: 138px;
+  z-index: 40;
+  transition: all 1s ease;
+}
+
+.wave-1--active {
+  left: -210px;
+  transition: all 2s ease;
+}
+
+.wave-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1218px;
+  height: 720px;
+  z-index: 50;
+  transition: all 1s ease;
+}
+
+.wave-2--active {
+  right: -50px;
+  transition: all 3s ease;
+}
+
+.wave-3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1280px;
+  height: 720px;
+  z-index: 60;
+  transition: all 1s ease;
+}
+
+.wave-3--active {
+  right: -150px;
+  transition: all 1s ease;
+}
+
+.wave-4 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 757px;
+  height: 636px;
+  z-index: 70;
+  transition: all 1s ease;
+}
+
+.wave-5 {
+  width: 838px;
+  height: 379px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  transition: all 1s ease;
+}
+
+.wave-6 {
+  width: 751px;
+  height: 264px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  transition: all 1s ease;
+}
+
+.wave-7 {
+  width: 182px;
+  height: 245px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  transition: all 1s ease;
+}
+
+.wave-8 {
+  width: 1280px;
+  height: 720px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 90;
+  transition: all 1s ease;
+}
+
+.wave-9 {
+  width: 1280px;
+  height: 720px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 80;
+  transition: all 1s ease;
+}
+
+.wave-10 {
+  width: 1280px;
+  height: 720px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 60;
+  transition: all 1s ease;
+}
+
+.wave-4--active {
+  right: -300px;
+  transition: all .5s ease;
+}
+
+.people {
+  position: absolute;
+  right: 126px;
+  top: 46px;
+  width: 459px;
+  height: 471px;
+  z-index: 90;
+  transition: all 1s ease;
+}
+
+.people--active {
+  right: 20px;
+  transition: all 1s ease;
+}
+
+.stripes {
+  position: absolute;
+  right: 252px;
+  top: 0;
+  width: 387px;
+  height: 226px;
+  z-index: 80;
+  transition: all 1s ease;
+}
+
+.stripes--active {
+  right: 130px;
+  transition: all 1s ease;
+}
+
+.moon {
+  position: absolute;
+  right: 18px;
+  top: 95px;
+  width: 66px;
+  height: 66px;
+  z-index: 100;
+  transition: all 1s ease;
+}
+
+.moon--active {
+  right: -15px;
+  transition: all 1s ease;
+}
+
+.leaf-1 {
+  position: absolute;
+  right: 0;
+  bottom: 143px;
+  width: 140px;
+  height: 272px;
+  z-index: 120;
+  transition: all 1s ease;
+}
+
+.leaf-1--active {
+  right: -90px;
+  transition: all 1s ease;
+}
+
+.leaf-2 {
+  position: absolute;
+  right: 0;
+  bottom: 152px;
+  width: 106px;
+  height: 307px;
+  z-index: 110;
+  transition: all 1s ease;
+}
+
+.leaf-2--active {
+  right: -90px;
+  transition: all 1s ease;
+}
